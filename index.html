@@ -48,12 +48,12 @@
             --secondary-color: #64748b;
             --accent-color: #f50b0b;
             --success-color: #10b981;
-            --text-primary: #1f2937;
+            --text-primary: #1f3724;
             --text-secondary: #6b7280;
             --text-light: #9ca3af;
             --bg-primary: #ffffff;
             --bg-secondary: #f8fafc;
-            --bg-dark: #0f172a;
+            --bg-dark: #000000;
             --border-color: #e2e8f0;
             --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
             --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
@@ -195,11 +195,13 @@
             padding: 1rem 0;
         }
 
+        /* logo section */
         .logo {
-            font-family: var(--font-heading);
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--primary-color);
+            width: 60px;
+            height: auto;
+            object-fit: cover;
+            margin: 0 10px 0 0;
+            vertical-align: middle;
         }
 
         .nav-menu {
@@ -1123,7 +1125,8 @@
     <header class="header" id="header">
         <div class="container">
             <nav class="navbar">
-                <a href="" class="logo">Dhanush Bohara</a>
+                <a href="https://kale-pro.github.io/dhanushbohara/profile.html">
+                    <img src="https://raw.githubusercontent.com/kale-pro/dhanushbohara/main/Dhanush-logo-icon-remove.png" alt="Logo" class="logo"></a>
 
                 <ul class="nav-menu" id="nav-menu">
                     <li><a href="#hero" class="nav-link active">Home</a></li>
@@ -2016,7 +2019,7 @@
                     return;
                 }
 
-                const texts = ['Full Stack Developer', 'IT Student', 'Problem Solver', 'Software Developer', 'Mobile App Developer', 'Dhanush Bohara'];
+                const texts = ['IT support ', 'Full Stack Developer', 'IT Student', 'Problem Solver', 'Software Developer', ' IT support', 'Mobile App Developer', 'Dhanush Bohara'];
                 let textIndex = 0;
                 let charIndex = 0;
                 let isDeleting = false;
